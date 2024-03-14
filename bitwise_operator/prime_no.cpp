@@ -1,7 +1,8 @@
 #include<iostream>
 using namespace std;
 int main(){
-    prime or 
+    
+    //prime or not
 
 int n;
 cout<<"enter the value of n" <<endl;
