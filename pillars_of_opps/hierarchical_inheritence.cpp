@@ -4,21 +4,21 @@ using namespace std;
 class A{
     public:
     void func1(){
-        cout<<"inside function 1"<<emdl;
+        cout<<"inside function 1"<<endl;
     }
 };
 
 class B: public A{
     public:
     void func2(){
-        cout<<"inside function 2"<<emdl;
+        cout<<"inside function 2"<<endl;
     }
 };
 
 class C: public A{
     public:
     void func3(){
-        cout<<"inside function 3"<<emdl;
+        cout<<"inside function 3"<<endl;
     }
 };
 
