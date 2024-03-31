@@ -19,6 +19,14 @@ int main(){
     {
         cout<<"character is: " <<*cp<<endl;
     }
+
+    cout<<"take a break 3\n";
+    
+    for (char i: my_name)
+    {
+        if(i==0)break;
+        cout<<"char is: "<<i<<endl;
+    }
     
 
     return 0;
