@@ -11,7 +11,7 @@ int main(){
     int end = arr.size()-1;
     int i=0;
 
-    while(i<=arr.size()) {
+    while(start<end) {
         if(arr[i] == 0) {
             //swap from left
             swap(arr[i], arr[start]);
