@@ -11,7 +11,7 @@ int main(){
     int end = arr.size()-1;
     int i=0;
 
-    while(start<end) {
+    while(i != end) {
         if(arr[i] == 0) {
             //swap from left
             swap(arr[i], arr[start]);
@@ -22,8 +22,6 @@ int main(){
             //swap from right
             swap(arr[i], arr[end]);
             end--;
-            i++;
-        }
     }
 
     //print
