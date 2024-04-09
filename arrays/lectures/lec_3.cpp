@@ -12,7 +12,10 @@ void printSum(int arr[3][3], int rows, int cols){
     
 }
 int main(){
-    int arr[3][3]; 
+    int arr[3][3]= {{1,4,6},
+        {2,4,1},
+        {3,2,7}
+    }; 
     int rows = 3;
     int cols = 3;
 
