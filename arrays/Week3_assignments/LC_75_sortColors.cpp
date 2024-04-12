@@ -1,6 +1,9 @@
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
-       sort(nums.begin(),nums.end());
+        //cannot usesorting function as mentioned in the question
+      // sort(nums.begin(),nums.end());
+
+      
     }
 };
