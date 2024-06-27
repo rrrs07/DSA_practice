@@ -4,7 +4,9 @@ using namespace std;
 int binarySearch(int arr[] , int n , int target){
     int s = 0;
     int e = n-1;
-    int mid = s + (e-s)/2;
+    int mid = 
+    (s+e)/2;
+    int ans = -1;
 
     while(s <= e){
         int element = arr[mid];
@@ -15,17 +17,18 @@ int binarySearch(int arr[] , int n , int target){
         else if (target < element){
             // go left
            e =  mid-1;
-           
-        }
+            
+        } 
         else {
             // go right
            s =  mid+1;
-           mid = s + (e-s)/2;
+          
         }
-
+        //galti
+         mid = (s+e)/2;
         
     }
-    return -1;
+    return ans;
 }
 
 
