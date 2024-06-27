@@ -4,8 +4,10 @@ using namespace std;
 int binarySearch(int arr[] , int n , int target){
     int s = 0;
     int e = n-1;
-    int mid = 
-    (s+e)/2;
+
+    // (s+e)/2 will cause overflow so we use this
+    //to prevent overflow 
+    int mid = s + (e - s)/2;
     int ans = -1;
 
     while(s <= e){
@@ -24,8 +26,8 @@ int binarySearch(int arr[] , int n , int target){
            s =  mid+1;
           
         }
-        //galti
-         mid = (s+e)/2;
+        //galti ,,,,, so update it to prevent galti
+          mid = s + (e - s)/2;
         
     }
     return ans;
