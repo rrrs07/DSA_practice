@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int findFirstOccurence(int arr[] , int n , int target){
+int findFirstOccurrence(int arr[] , int n , int target){
     int s = 0;
     int e = n-1;
 
@@ -40,7 +40,7 @@ int main(){
     int arr[] = {10,20,30,30,30,60,70};
     int target = 30;
     int n = 7 ;
-     int ansIndex = findFirstOccurence(arr , n , target);
+     int ansIndex = findFirstOccurrence(arr , n , target);
 
      if(ansIndex == -1){
         cout<<"Element not found"<<endl;
