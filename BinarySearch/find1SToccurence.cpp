@@ -5,7 +5,7 @@ int findFirstOccurence(int arr[] , int n , int target){
     int s = 0;
     int e = n-1;
 
-    // (s+e)/2 will cause overflow so we use this
+    // (s+e)/2 will cause integer overflow so we use this
     //to prevent overflow 
     int mid = s + (e - s)/2;
     int ans = -1;
