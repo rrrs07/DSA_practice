@@ -5,7 +5,7 @@ int peakIndexInMOuntainArray(vector<int>& arr){\
     int mid = s+(e-s)/2;
 
     while(s<e){
-        if(arr[mid] == arr[mid+1]){
+        if(arr[mid] < arr[mid+1]){
             //A wali line mein hu
             // peak exist at right
 
