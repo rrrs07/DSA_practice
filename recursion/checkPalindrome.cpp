@@ -25,6 +25,7 @@ public:
     }
 };
 
+
 int main() {
     Solution solution;
     string test = "A man, a plan, a canal: Panama";
