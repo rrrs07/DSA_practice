@@ -1,6 +1,6 @@
 // brute force solution
 
-// sort it using any sorting method in ascending order and return the last element
+// sort it using any sorting method in ascending order and return the last element n-1
 
 // Time complexity: O(n log n)
 
