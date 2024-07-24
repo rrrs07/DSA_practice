@@ -16,6 +16,8 @@ for(int i = 0; i<n; i++){
     }
     return ans;
 }
+//time complexity: O(n*m)
+// space complexity: O(m)
 
 
 
@@ -40,3 +42,5 @@ while(i< n && j<m){
     }
 }
 return ans;
+
+// Time complexity: O(n+m)
