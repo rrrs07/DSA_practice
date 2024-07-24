@@ -18,6 +18,9 @@
         ptr++;
         v.erase(v.begin()+ptr, v.end());
         return v;
+//time complexity: O((n+m)log(n+m))
+//space complexity: O(n+m)
+
 
 
 //optimal sol
@@ -62,5 +65,7 @@ class Solution{
         return unionArr;
     }
 };
+//time complexity O(n+m)
+//space complexity O(n+m)
 
 
