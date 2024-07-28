@@ -19,7 +19,7 @@ int peakIndexInMOuntainArray(vector<int>& arr){\
 
         }
         //mid update
-        mid = s+(e-s)/2;
+        mid = s + (e-s)/2;
     }
     return s;
 }
