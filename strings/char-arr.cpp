@@ -136,25 +136,27 @@ using namespace std;
 
 
 /* check palindrome  */
-// bool isPalindrome(char ch[], int n) {
-//     int i = 0;
-//     int j = n - 1;
-//     while (i >= j) {
-//         if (ch[i] != ch[j]) {
-//             cout << "Not a palindrome" << endl;
-//             return false;
-//         }
-//         i++;
-//         j--;
-//     }
-//     cout << "Palindrome" << endl;
-//     return true;
-// }
+bool isPalindrome(char ch[], int n) {
+    int i = 0;
+    int j = n - 1;
+    while (i <= j) {
+        if (ch[i] != ch[j]) {
+            cout << "Not a palindrome" << endl;
+            return false;
+        }
+        else{
+            i++;
+            j--;
+        }
+    }
+    cout << "Palindrome" << endl;
+    return true;
+}
 
-// int main() {
-//     char ch[100];
-//     cin.getline(ch, 100);
+int main() {
+    char ch[100];
+    cin.getline(ch, 100);
      
-//     isPalindrome(ch, 100);
+    isPalindrome(ch, 100);
    
-// }
+}
