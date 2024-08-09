@@ -43,6 +43,11 @@ public:
 
     static string str;
     static bool compare(char ch1, char ch2){
+
+        // this will return true , if position of character 1 in str string is less than the position of character 2 in str string
+
+        // when true is returned, then character 1 will come before character 2 in the sorted string
+        //output
         return (str.find(ch1) < str.find(ch2));
     }
     string customSortString(string order, string s) {
